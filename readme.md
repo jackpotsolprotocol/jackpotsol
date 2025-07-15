@@ -2,7 +2,7 @@
 
 This is a decentralized **lottery program** built using the [Anchor framework](https://book.anchor-lang.com/) on **Solana**.
 
-Participants buy tickets using a specified SPL token. Once all tickets are sold, a random winner is selected and rewarded with 95% of the pot, while 5% is burned. A small developer fee is paid in SOL when the pot is created.
+Participants buy tickets using a specified SPL token. Once all tickets are sold, a random winner is selected and rewarded with 95% of the pot, while 4% goes to buyback JPSOL token and 1% for VRF Randomness fee. A small developer fee is paid in SOL when the pot is created.
 
 ---
 
@@ -11,7 +11,7 @@ Participants buy tickets using a specified SPL token. Once all tickets are sold,
 - ✅ Lottery pot creation with custom ticket price and capacity
 - ✅ Dev fee enforcement (0.1 SOL to a fixed developer wallet)
 - ✅ Ticket purchases in SPL tokens
-- ✅ Automatic payout: 95% to winner, 5% burn
+- ✅ Automatic payout: 95% to winner, 4% goes to buyback JPSOL token and 1% for VRF Randomness fee
 - ✅ Secure randomness via off-chain VRF integration
 - ✅ Emits events for all major actions (pot creation, ticket bought, payout)
 
